@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="website icon" type="png" href="bollywood/rcr2.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Royal Cinema</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>The Royal Cinema</h1>
+        <nav>
+            <ul>
+                <li><button class="tab-button" onclick="showSection('bollywood')">Bollywood</button></li>
+                <li><button class="tab-button" onclick="showSection('hollywood')">Hollywood</button></li>
+                <li><button class="tab-button" onclick="showSection('tollywood')">Tollywood</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="bollywood" class="tab-content active">
+            <h1>Bollywood</h1><h1></h1><h1></h1><h1></h1>
+            <div class="outer" id="Outer1">
+                <div id="on">
+                    <h1>Vedaa<hr></h1>
+                    <h2>2D,IMAX 2D<br>Price: 249 Rs/ticket<br>Seat Available: 75/150</h2>Language:<div class="lang">Hindi,English</div>
+                    <br><button id="btncancle">Cancle</button>
+                    <button onclick="location.href='payment.html'">Book</button>
+                    <button onclick="location.href='review.html'">Rate⭐</button>
+                </div>
+            </div>
+            <div class="outer" id="Outer2">
+                <div id="on">
+                    <h1>Pushpa 2<hr></h1>
+                    <h2>2D,IMAX 2D<br>Price: 229 Rs/ticket<br>Seat Available: 100/150</h2>Language:<div class="lang">Hindi,English</div>
+                    <br><button id="btncancle">Cancle</button>
+                    <button onclick="location.href='payment.html'">Book</button>
+                    <button onclick="location.href='review.html'">Rate⭐</button>
+                </div>
+            </div>
+            <div class="outer" id="Outer3">
+                <div>
+                    <h1>Tiger 3<hr></h1>
+                    <h2>2D,IMAX 2D<br>Price: 219 Rs/ticket<br>Seat Available: 92/150</h2>Language:<div class="lang">Hindi,English</div>
+                    <br><button id="btncancle">Cancle</button>
+                    <button onclick="location.href='payment.html'">Book</button>
+                    <button onclick="location.href='review.html'">Rate⭐</button>
+                </div>
+            </div>
+            <div class="outer" id="Outer4">
+                <div>
+                    <h1>Kalki<hr></h1>
+                    <h2>2D,IMAX 2D<br>Price: 239 Rs/ticket<br>Seat Available: 73/150</h2>Language:<div class="lang">Hindi,English</div>
+                    <br><button id="btncancle">Cancle</button>
+                    <button onclick="location.href='payment.html'">Book</button>
+                    <button onclick="location.href='review.html'">Rate⭐</button>
+                </div>
+            </div>
+            <div class="outer" id="Outer5">
+                <div id="on">
+                    <h1>Jawan<hr></h1>
+                    <h2>2D,IMAX 2D<br>Price: 199 Rs/ticket<br>Seat Available: 96/150</h2>Language:<div class="lang">Hindi,English</div>
+                    <br><button id="btncancle">Cancle</button>
+                    <button onclick="location.href='payment.html'">Book</button>
+                    <button onclick="location.href='review.html'">Rate⭐</button>
+                </div>
+            </div>
+                <div class="outer" id="Outer6">
+                    <div id="on">
+                        <h1>Gadar 2<hr></h1>
+                        <h2>2D,IMAX 2D<br>Price: 249 Rs/ticket<br>Seat Available: 83/150</h2>Language:<div class="lang">Hindi,English</div>
+                        <br><button id="btncancle">Cancle</button>
+                        <button onclick="location.href='payment.html'">Book</button>
+                        <button onclick="location.href='review.html'">Rate⭐</button>
+                    </div>
+                </div>
+                    <div class="outer" id="Outer7">
+                        <div id="on">
+                            <h1>Sahitaan<hr></h1>
+                            <h2>2D,IMAX 2D<br>Price: 259 Rs/ticket<br>Seat Available: 91/150</h2>Language:<div class="lang">Hindi,English</div>
+                            <br><button id="btncancle">Cancle</button>
+                            <button onclick="location.href='payment.html'">Book</button>
+                            <button onclick="location.href='review.html'">Rate⭐</button>
+                        </div>
+                    </div>
+                        <div class="outer" id="Outer8">
+                            <div id="on">
+                                <h1>Vanavaas<hr></h1>
+                                <h2>2D,IMAX 2D<br>Price: 209 Rs/ticket<br>Seat Available: 44/150</h2>Language:<div class="lang">Hindi,English</div>
+                                <br><button id="btncancle">Cancle</button>
+                                <button onclick="location.href='payment.html'">Book</button>
+                                <button onclick="location.href='review.html'">Rate⭐</button>
+                            </div>
+                        </div>
+            </div>
+            <div class="movie" id="a1">
+                <img src="bollywood/vedaa1.jpg">
+                <h3>Vedaa</h3>
+                <button id="btn1">Book now</button>
+            </div>
+            </div>
+            <div class="movie" id="a2">
+                <img src="bollywood/Pushpa2.webp">
+                <h3>Pushpa 2</h3>
+                <button id="btn2">Book now</button>
+            </div>
+            <div class="movie" id="a3">
+                <img src="bollywood/tiger3.jpg">
+                <h3>Tiger 3</h3>
+                <button id="btn3">Book now</button>
+            </div>
+            <div class="movie" id="a4">
+                <img src="bollywood/kalki.jpg">
+                <h3>kalki</h3>
+                <button id="btn4">Book now</button>
+            </div>
+            <div class="movie" id="a5">
+                <img src="img/jawan.jpg">
+                <h3>Jawan</h3>
+                <button id="btn5">Book now</button>
+            </div>
+            <div class="movie" id="a6">
+                <img src="img/gadar2.jpg">
+                <h3>Gadar 2</h3>
+                <button id="btn6">Book now</button>
+            </div>
+            <div class="movie" id="a7">
+                <img src="bollywood/saitan.jpg">
+                <h3>Shaitaan</h3>
+                <button id="btn7">Book now</button>
+            </div>
+            <div class="movie" id="a8">
+                <img src="bollywood/vanvaas.jpg">
+                <h3>vanavaas</h3>
+                <button id="btn8">Book now</button>
+            </div>
+        </section>        
+        <section id="hollywood" class="tab-content">
+            <h1>Hollywood</h1><h1></h1><h1></h1><h1></h1>
+            <div class="outer" id="holly1">
+                <div id="on">
+                    <h1>Ant Man<hr></h1>
+                    <h2>2D,IMAX 2D,4DX<br>Price: 319 Rs/ticket<br>Seat Available: 42/150</h2>Language:<div class="lang2">Hindi,English,French,Russian</div>
+                    <br><button id="btncancle">Cancle</button>
+                    <button onclick="location.href='payment2.html'">Book</button>
+                    <button onclick="location.href='review.html'">Rate⭐</button>
+                </div>
+            </div>
+            <div class="outer" id="holly2">
+                <div id="on">
+                    <h1>Avengers<hr></h1>
+                    <h2>3D,IMAX 2D<br>Price: 229 Rs/ticket<br>Seat Available: 56/150</h2>Language:<div class="lang2">English</div>
+                    <br><button id="btncancle">Cancle</button>
+                    <button onclick="location.href='payment2.html'">Book</button>
+                    <button onclick="location.href='review.html'">Rate⭐</button>
+                </div>
+            </div>
+            <div class="outer" id="holly3">
+                <div id="on">
+                    <h1>Eternals<hr></h1>
+                    <h2>3D,IMAX 2D,4DX<br>Price: 249 Rs/ticket<br>Seat Available: 71/150</h2>Language:<div class="lang2">Hindi,English,French,German</div>
+                    <br><button id="btncancle">Cancle</button>
+                    <button onclick="location.href='payment2.html'">Book</button>
+                    <button onclick="location.href='review.html'">Rate⭐</button>
+                </div>
+            </div>
+            <div class="outer" id="holly4">
+                <div id="on">
+                    <h1>Money Heist<hr></h1>
+                    <h2>3D,IMAX 2D,4DX<br>Price: 299Rs/ticket<br>Seat Available: 36/150</h2>Language:<div class="lang2">Hindi,English,French,Chinese</div>
+                    <br><button id="btncancle">Cancle</button>
+                    <button onclick="location.href='payment2.html'">Book</button>
+                    <button onclick="location.href='review.html'">Rate⭐</button>
+                </div>
+            </div>
+            <div class="outer" id="holly5">
+                <div id="on">
+                    <h1>Spiderman<hr></h1>
+                    <h2>3D,IMAX 2D<br>Price: 252 Rs/ticket<br>Seat Available: 102/150</h2>Language:<div class="lang2">English,French,Russian</div>
+                    <br><button id="btncancle">Cancle</button>
+                    <button onclick="location.href='payment2.html'">Book</button>
+                    <button onclick="location.href='review.html'">Rate⭐</button>
+                </div>
+            </div>
+            <div class="outer" id="holly6">
+                <div id="on">
+                    <h1>Moon Knight<hr></h1>
+                    <h2>3D,IMAX 2D,4DX<br>Price: 199 Rs/ticket<br>Seat Available: 31/150</h2>Language:<div class="lang2">Hindi,English,French,German</div>
+                    <br><button id="btncancle">Cancle</button>
+                    <button onclick="location.href='payment2.html'">Book</button>
+                    <button onclick="location.href='review.html'">Rate⭐</button>
+                </div>
+            </div>
+            <div class="outer" id="holly7">
+                <div id="on">
+                    <h1>Jurassic World<hr></h1>
+                    <h2>3D,IMAX 2D<br>Price: 269 Rs/ticket<br>Seat Available: 72/150</h2>Language:<div class="lang2">Hindi,English,French,Russian</div>
+                    <br><button id="btncancle">Cancle</button>
+                    <button onclick="location.href='payment2.html'">Book</button>
+                    <button onclick="location.href='review.html'">Rate⭐</button>
+                </div>
+            </div>
+            <div class="outer" id="holly8">
+                <div id="on">
+                    <h1>Topgun<hr></h1>
+                    <h2>3D,IMAX 2D,4DX<br>Price: 249 Rs/ticket<br>Seat Available: 75/150</h2>Language:<div class="lang2">Hindi,English,French,Russian</div>
+                    <br><button id="btncancle">Cancle</button>
+                    <button onclick="location.href='payment2.html'">Book</button>
+                    <button onclick="location.href='review.html'">Rate⭐</button>
+                </div>
+            </div>
+            <div class="movie" id="b1">
+                <img src="img/ant man.jpg">
+                <h3>Ant Man</h3>
+                <button id="hbtn1">Book now</button>
+            </div>
+            <div class="movie" id="b2">
+                <img src="img/avengers.jpg">
+                <h3>Avengers</h3>
+                <button id="hbtn2">Book now</button>
+            </div>
+            <div class="movie" id="b3">
+                <img src="img/eternals.jpg">
+                <h3>Eternals</h3>
+                <button id="hbtn3">Book now</button>
+            </div>
+            <div class="movie" id="b4">
+                <img src="img/money heist.jpg">
+                <h3>Money Heist</h3>
+                <button id="hbtn4">Book now</button>
+            </div>
+            <div class="movie" id="b5">
+                <img src="img/spiderman.jpg">
+                <h3>Spiderman</h3>
+                <button id="hbtn5">Book now</button>
+            </div>
+            <div class="movie" id="b6">
+                <img src="img/moon knight.jpg">
+                <h3>Moon Knight</h3>
+                <button id="hbtn6">Book now</button>
+            </div>
+            <div class="movie" id="b7">
+                <img src="img/jurassic world.jpg">
+                <h3>Jurassic World</h3>
+                <button id="hbtn7">Book now</button>
+            </div>
+            <div class="movie" id="b8">
+                <img src="img/topgun.jpg">
+                <h3>Topgun</h3>
+                <button id="hbtn8">Book now</button>
+            </div>
+        </section>
+        <section id="tollywood" class="tab-content">
+            <h1>Tollywood</h1><h1></h1><h1></h1><h1></h1>
+            <div class="outer" id="tolly1">
+                <div id="on">
+                    <h1>Hanu-man<hr></h1>
+                    <h2>2D,IMAX 2D<br>Price: 249 Rs/ticket<br>Seat Available: 75/150</h2>Language:<div class="lang">Hindi,Tamil,English</div>
+                    <br><button id="btncancle">Cancle</button>
+                    <button onclick="location.href='payment3.html'">Book</button>
+                    <button onclick="location.href='review.html'">Rate⭐</button>
+                </div>
+            </div>
+            <div class="outer" id="tolly2">
+                <div id="on">
+                    <h1>Maharaja<hr></h1>
+                    <h2>2D,IMAX 2D<br>Price: 229 Rs/ticket<br>Seat Available: 100/150</h2>Language:<div class="lang">Hindi,Tamil,English</div>
+                    <br><button id="btncancle">Cancle</button>
+                    <button onclick="location.href='payment3.html'">Book</button>
+                    <button onclick="location.href='review.html'">Rate⭐</button>
+                </div>
+            </div>
+            <div class="outer" id="tolly3">
+                <div>
+                    <h1>Devara<hr></h1>
+                    <h2>2D,IMAX 2D<br>Price: 219 Rs/ticket<br>Seat Available: 92/150</h2>Language:<div class="lang">Hindi,Tamil,English</div>
+                    <br><button id="btncancle">Cancle</button>
+                    <button onclick="location.href='payment3.html'">Book</button>
+                    <button onclick="location.href='review.html'">Rate⭐</button>
+                </div>
+            </div>
+            <div class="outer" id="tolly4">
+                <div>
+                    <h1>Sabari<hr></h1>
+                    <h2>2D,IMAX 2D<br>Price: 239 Rs/ticket<br>Seat Available: 73/150</h2>Language:<div class="lang">Hindi,Tamil,English</div>
+                    <br><button id="btncancle">Cancle</button>
+                    <button onclick="location.href='payment3.html'">Book</button>
+                    <button onclick="location.href='review.html'">Rate⭐</button>
+                </div>
+            </div>
+                <div class="outer" id="tolly5">
+                    <div id="on">
+                        <h1>Eagle<hr></h1>
+                        <h2>3D,IMAX 2D<br>Price: 252 Rs/ticket<br>Seat Available: 102/150</h2>Language:<div class="lang2">Hindi,Tamil,English</div>
+                        <br><button id="btncancle">Cancle</button>
+                        <button onclick="location.href='payment3.html'">Book</button>
+                        <button onclick="location.href='review.html'">Rate⭐</button>
+                    </div>
+                </div>
+                <div class="outer" id="tolly6">
+                    <div id="on">
+                        <h1>Sankranti<hr></h1>
+                        <h2>3D,IMAX 2D,4DX<br>Price: 199 Rs/ticket<br>Seat Available: 31/150</h2>Language:<div class="lang2">Hindi,Tamil,English</div>
+                        <br><button id="btncancle">Cancle</button>
+                        <button onclick="location.href='payment3.html'">Book</button>
+                        <button onclick="location.href='review.html'">Rate⭐</button>
+                    </div>
+                </div>
+                <div class="outer" id="tolly7">
+                    <div id="on">
+                        <h1><pre>Double Ismart</pre><hr></h1>
+                        <h2>3D,IMAX 2D<br>Price: 269 Rs/ticket<br>Seat Available: 72/150</h2>Language:<div class="lang2">Hindi,Tamil,English</div>
+                        <br><button id="btncancle">Cancle</button>
+                        <button onclick="location.href='payment3.html'">Book</button>
+                        <button onclick="location.href='review.html'">Rate⭐</button>
+                    </div>
+                </div>
+                <div class="outer" id="tolly8">
+                    <div id="on">
+                        <h1>Superhero<hr></h1>
+                        <h2>3D,IMAX 2D,4DX<br>Price: 249 Rs/ticket<br>Seat Available: 75/150</h2>Language:<div class="lang2">Hindi,Tamil,English</div>
+                        <br><button id="btncancle">Cancle</button>
+                        <button onclick="location.href='payment3.html'">Book</button>
+                        <button onclick="location.href='review.html'">Rate⭐</button>
+                    </div>
+                </div>
+            <div class="movie" id="c1">
+                <img src="tollywood/1.webp">
+                <h3>Hanu-man</h3>
+                <button id="tbtn1">Book now</button>
+            </div>
+            <div class="movie" id="c2">
+                <img src="tollywood/2.jpg">
+                <h3>Maharaja</h3>
+                <button id="tbtn2">Book now</button>
+            </div>
+            <div class="movie" id="c3">
+                <img src="tollywood/3.jpg">
+                <h3>Devara</h3>
+                <button id="tbtn3">Book now</button>
+            </div>
+            <div class="movie" id="c4">
+                <img src="tollywood/4.jpg">
+                <h3>Sabari</h3>
+                <button id="tbtn4">Book now</button>
+            </div>
+            <div class="movie" id="c5">
+                <img src="tollywood/5.webp">
+                <h3>Eagle</h3>
+                <button id="tbtn5">Book now</button>
+            </div>
+            <div class="movie" id="c6">
+                <img src="tollywood/6.jpg">
+                <h3>Sankranti</h3>
+                <button id="tbtn6">Book now</button>
+            </div>
+            <div class="movie" id="c7">
+                <img src="tollywood/7.jpg">
+                <h3>Double Ismart</h3>
+                <button id="tbtn7">Book now</button>
+            </div>
+            <div class="movie" id="c8">
+                <img src="tollywood/8.jpeg">
+                <h3>Superhero</h3>
+                <button id="tbtn8">Book now</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Movie Ticket Booking</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script>
+  $(document).ready(function () {
+        	$("#btn1").click(function () {
+        		$("#Outer1").show(1000);
+                $('#a2,#a3,#a4,#a5,#a6,#a7,#a8').hide(0);
+                $("#a1").slideDown(1000);
+        	});
+            $("#btn2").click(function () {
+        		$("#Outer2").show(1000);
+                $('#a1,#a3,#a4,#a5,#a6,#a7,#a8').hide(0);
+        	});
+            $("#btn3").click(function () {
+        		$("#Outer3").show(1000);
+                $('#a1,#a2,#a4,#a5,#a6,#a7,#a8').hide(0);
+        	});
+            $("#btn4").click(function () {
+        		$("#Outer4").show(1000);
+                $('#a1,#a2,#a3,#a5,#a6,#a7,#a8').hide(0);
+        	});
+            $("#btn5").click(function () {
+        		$("#Outer5").show(1000);
+                $('#a1,#a2,#a3,#a4,#a6,#a7,#a8').hide(0);
+        	});
+            $("#btn6").click(function () {
+        		$("#Outer6").show(1000);
+                $('#a1,#a2,#a3,#a4,#a5,#a7,#a8').hide(0);
+        	});
+            $("#btn7").click(function () {
+        		$("#Outer7").show(1000);
+                $('#a1,#a2,#a3,#a4,#a5,#a6,#a8').hide(0);
+        	});
+            $("#btn8").click(function () {
+        		$("#Outer8").show(1000);
+                $('#a1,#a2,#a3,#a4,#a5,#a6,#a7').hide(0);
+        	});
+            $("#btncancle,#btncancle").click(function () {
+        		$("#Outer1,#Outer2,#Outer3,#Outer4,#Outer5,#Outer6,#Outer7,#Outer8").hide(800);
+                $('#a1,#a2,#a3,#a4,#a5,#a6,#a7,#a8').show();
+        	});
+            $("#hbtn1").click(function () {
+        		$("#holly1").show(1000);
+                $('#b2,#b3,#b4,#b5,#b6,#b7,#b8').hide(0);
+            });
+            $("#hbtn2").click(function () {
+        		$("#holly2").show(1000);
+                $('#b1,#b3,#b4,#b5,#b6,#b7,#b8').hide(0);
+            });
+            $("#hbtn3").click(function () {
+        		$("#holly3").show(1000);
+                $('#b1,#b2,#b4,#b5,#b6,#b7,#b8').hide(0);
+            });
+            $("#hbtn4").click(function () {
+        		$("#holly4").show(1000);
+                $('#b1,#b2,#b3,#b5,#b6,#b7,#b8').hide(0);
+            });
+            $("#hbtn5").click(function () {
+        		$("#holly5").show(1000);
+                $('#b1,#b2,#b3,#b4,#b6,#b7,#b8').hide(0);
+            });
+            $("#hbtn6").click(function () {
+        		$("#holly6").show(1000);
+                $('#b1,#b2,#b3,#b4,#b5,#b7,#b8').hide(0);
+            });
+            $("#hbtn7").click(function () {
+        		$("#holly7").show(1000);
+                $('#b1,#b2,#b3,#b4,#b5,#b6,#b8').hide(0);
+            });
+            $("#hbtn8").click(function () {
+        		$("#holly8").show(1000);
+                $('#b1,#b2,#b3,#b4,#b5,#b6,#b7').hide(0);
+            });
+            $("#btncancle,#btncancle").click(function () {
+        		$("#holly1,#holly2,#holly3,#holly4,#holly5,#holly6,#holly7,#holly8").hide(800);
+                $('#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8').show();
+        	});
+            $("#tbtn1").click(function () {
+        		$("#tolly1").show(1000);
+                $('#c2,#c3,#c4,#c5,#c6,#c7,#c8').hide(0);
+            });
+            $("#tbtn2").click(function () {
+        		$("#tolly2").show(1000);
+                $('#c1,#c3,#c4,#c5,#c6,#c7,#c8').hide(0);
+            });
+            $("#tbtn3").click(function () {
+        		$("#tolly3").show(1000);
+                $('#c1,#c2,#c4,#c5,#c6,#c7,#c8').hide(0);
+            });
+            $("#tbtn4").click(function () {
+        		$("#tolly4").show(1000);
+                $('#c1,#c2,#c3,#c5,#c6,#c7,#c8').hide(0);
+            });
+            $("#tbtn5").click(function () {
+        		$("#tolly5").show(1000);
+                $('#c1,#c2,#c3,#c4,#c6,#c7,#c8').hide(0);
+            });
+            $("#tbtn6").click(function () {
+        		$("#tolly6").show(1000);
+                $('#c1,#c2,#c3,#c4,#c5,#c7,#c8').hide(0);
+            });
+            $("#tbtn7").click(function () {
+        		$("#tolly7").show(1000);
+                $('#c1,#c2,#c3,#c4,#c5,#c6,#c8').hide(0);
+            });
+            $("#tbtn8").click(function () {
+        		$("#tolly8").show(1000);
+                $('#c1,#c2,#c3,#c4,#c5,#c6,#c7').hide(0);
+            });
+            $("#btncancle,#btncancle").click(function () {
+        		$("#tolly1,#tolly2,#tolly3,#tolly4,#tolly5,#tolly6,#tolly7,#tolly8").hide(800);
+                $('#c1,#c2,#c3,#c4,#c5,#c6,#c7,#c8').show();
+            });
+        });
+    </script>
+</body>
+</html>
